@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE0F5A721ED1F07B005500DA /* MyCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0F5A711ED1F07B005500DA /* MyCollectionViewController.swift */; };
+		DE0F5A741ED1F6F0005500DA /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0F5A731ED1F6F0005500DA /* CategoryCell.swift */; };
+		DE60BD981ECB667B0076F24A /* SearchedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE60BD971ECB667B0076F24A /* SearchedViewController.swift */; };
+		DE60BD9A1ECB668E0076F24A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE60BD991ECB668E0076F24A /* DetailViewController.swift */; };
+		DE60BD9C1ECB66CB0076F24A /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE60BD9B1ECB66CB0076F24A /* CartViewController.swift */; };
 		DE9DDC091E9D363A003C8223 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9DDC081E9D363A003C8223 /* AppDelegate.swift */; };
-		DE9DDC0B1E9D363A003C8223 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9DDC0A1E9D363A003C8223 /* ViewController.swift */; };
 		DE9DDC0E1E9D363A003C8223 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE9DDC0C1E9D363A003C8223 /* Main.storyboard */; };
 		DE9DDC111E9D363A003C8223 /* mcommerce.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE9DDC0F1E9D363A003C8223 /* mcommerce.xcdatamodeld */; };
 		DE9DDC131E9D363A003C8223 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE9DDC121E9D363A003C8223 /* Assets.xcassets */; };
@@ -35,9 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE0F5A711ED1F07B005500DA /* MyCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewController.swift; sourceTree = "<group>"; };
+		DE0F5A731ED1F6F0005500DA /* CategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		DE60BD971ECB667B0076F24A /* SearchedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchedViewController.swift; sourceTree = "<group>"; };
+		DE60BD991ECB668E0076F24A /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		DE60BD9B1ECB66CB0076F24A /* CartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
 		DE9DDC051E9D363A003C8223 /* mcommerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mcommerce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE9DDC081E9D363A003C8223 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DE9DDC0A1E9D363A003C8223 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DE9DDC0D1E9D363A003C8223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE9DDC101E9D363A003C8223 /* mcommerce.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mcommerce.xcdatamodel; sourceTree = "<group>"; };
 		DE9DDC121E9D363A003C8223 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,12 +108,16 @@
 			isa = PBXGroup;
 			children = (
 				DE9DDC081E9D363A003C8223 /* AppDelegate.swift */,
-				DE9DDC0A1E9D363A003C8223 /* ViewController.swift */,
 				DE9DDC0C1E9D363A003C8223 /* Main.storyboard */,
 				DE9DDC121E9D363A003C8223 /* Assets.xcassets */,
 				DE9DDC141E9D363A003C8223 /* LaunchScreen.storyboard */,
 				DE9DDC171E9D363A003C8223 /* Info.plist */,
 				DE9DDC0F1E9D363A003C8223 /* mcommerce.xcdatamodeld */,
+				DE60BD971ECB667B0076F24A /* SearchedViewController.swift */,
+				DE60BD991ECB668E0076F24A /* DetailViewController.swift */,
+				DE60BD9B1ECB66CB0076F24A /* CartViewController.swift */,
+				DE0F5A711ED1F07B005500DA /* MyCollectionViewController.swift */,
+				DE0F5A731ED1F6F0005500DA /* CategoryCell.swift */,
 			);
 			path = mcommerce;
 			sourceTree = "<group>";
@@ -262,8 +274,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE9DDC0B1E9D363A003C8223 /* ViewController.swift in Sources */,
+				DE60BD981ECB667B0076F24A /* SearchedViewController.swift in Sources */,
+				DE60BD9A1ECB668E0076F24A /* DetailViewController.swift in Sources */,
+				DE0F5A721ED1F07B005500DA /* MyCollectionViewController.swift in Sources */,
+				DE0F5A741ED1F6F0005500DA /* CategoryCell.swift in Sources */,
 				DE9DDC111E9D363A003C8223 /* mcommerce.xcdatamodeld in Sources */,
+				DE60BD9C1ECB66CB0076F24A /* CartViewController.swift in Sources */,
 				DE9DDC091E9D363A003C8223 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -509,6 +525,7 @@
 				DE9DDC321E9D363A003C8223 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE9DDC331E9D363A003C8223 /* Build configuration list for PBXNativeTarget "mcommerceTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +534,7 @@
 				DE9DDC351E9D363A003C8223 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE9DDC361E9D363A003C8223 /* Build configuration list for PBXNativeTarget "mcommerceUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +543,7 @@
 				DE9DDC381E9D363A003C8223 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
